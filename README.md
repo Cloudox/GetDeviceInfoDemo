@@ -24,6 +24,8 @@
 #define isiPhone6or6s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)  
 #define isiPhone6plusor6splus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO) 
 ```
+设备信息表格：
+![](https://github.com/Cloudox/GetDeviceInfoDemo/blob/master/DeviceInfo.png)
 
 * 获取系统版本
 ```Objective-c
