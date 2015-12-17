@@ -14,6 +14,7 @@
 		AD7385DA1C223EBD008ED9FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7385D91C223EBD008ED9FB /* Images.xcassets */; };
 		AD7385DD1C223EBD008ED9FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7385DB1C223EBD008ED9FB /* LaunchScreen.xib */; };
 		AD7385E91C223EBD008ED9FB /* GetDeviceInfoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7385E81C223EBD008ED9FB /* GetDeviceInfoDemoTests.m */; };
+		AD7385F31C22490B008ED9FB /* DeviceInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7385F21C22490B008ED9FB /* DeviceInfo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AD7385E21C223EBD008ED9FB /* GetDeviceInfoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetDeviceInfoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7385E71C223EBD008ED9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7385E81C223EBD008ED9FB /* GetDeviceInfoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetDeviceInfoDemoTests.m; sourceTree = "<group>"; };
+		AD7385F21C22490B008ED9FB /* DeviceInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeviceInfo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AD7385CB1C223EBD008ED9FB /* GetDeviceInfoDemo */,
 				AD7385E51C223EBD008ED9FB /* GetDeviceInfoDemoTests */,
 				AD7385CA1C223EBD008ED9FB /* Products */,
+				AD7385F21C22490B008ED9FB /* DeviceInfo.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7385D81C223EBD008ED9FB /* Main.storyboard in Resources */,
+				AD7385F31C22490B008ED9FB /* DeviceInfo.png in Resources */,
 				AD7385DD1C223EBD008ED9FB /* LaunchScreen.xib in Resources */,
 				AD7385DA1C223EBD008ED9FB /* Images.xcassets in Resources */,
 			);
