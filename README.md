@@ -11,10 +11,10 @@
 * 获取屏幕的宽高
 ```Objective-c
 // 设备宽度  
- [UIScreen mainScreen].bounds.size.width  
+#define SCREENWIDTH       [UIScreen mainScreen].bounds.size.width 
   
 // 设备高度  
-[UIScreen mainScreen].bounds.size.height  
+#define SCREENHEIGHT      [UIScreen mainScreen].bounds.size.height
 ```
 
 * 获取设备的型号
